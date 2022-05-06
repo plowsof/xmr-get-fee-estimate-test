@@ -13,7 +13,7 @@ curl node.sethforprivacy.com:18089/json_rpc -d '{"jsonrpc":"2.0","id":"0","metho
 ```
 
 Output:
-```json
+```
 {'id': '0',
  'jsonrpc': '2.0',
  'result': {'credits': 0,
@@ -38,7 +38,8 @@ def get_fee_curl(node):
     print(r.json()["result"]["fee"])
   except:
     pass
-
+   
+#my local nodes peer list
 data = requests.get("http://192.168.1.68:18081/get_peer_list")
 data = data.json()
 
