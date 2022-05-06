@@ -20,3 +20,5 @@ Output:
             'top_hash': '',
             'untrusted': False}}
 ```
+
+Significance of client other than nodes to identity a request?
