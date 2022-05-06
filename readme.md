@@ -59,9 +59,7 @@ for x in data["white_list"]:
 ```
 
 Yet to find a high fee, but found some useless nodes:
-```
 [http://141.98.28.67:18089/get_info](http://141.98.28.67:18089/get_info)
 [http://185.157.160.119:18089/get_info](http://185.157.160.119:18089/get_info)
 [http://217.91.47.142:18089/get_info](http://217.91.47.142:18089/get_info)
 [http://204.8.15.5:18089/get_info](http://204.8.15.5:18089/get_info)
-```
