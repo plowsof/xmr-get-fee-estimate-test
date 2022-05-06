@@ -65,17 +65,17 @@ Yet to find a high fee, but found some useless nodes:
 - [http://204.8.15.5:18089/get_info](http://204.8.15.5:18089/get_info)
 
 quick test on [FeatherWallets' clearnet list](https://github.com/feather-wallet/feather/blob/d379262a78af4f846949684e310ed5acf2354025/src/assets/nodes.json#L18) 
-```csv
-node,fee
-http://node.sethforprivacy.com:18089/json_rpc,4185
-http://node2.sethforprivacy.com:18089/json_rpc,4185
-http://selsta1.featherwallet.net:18081/json_rpc,4185
-http://selsta2.featherwallet.net:18081/json_rpc,4185
-http://node.monerooutreach.org:18081/json_rpc,4185
-http://node.majesticbank.is:18089/json_rpc,4185
-http://node.majesticbank.su:18089/json_rpc,4185
-http://xmr-node-eu.cakewallet.com:18081/json_rpc,4185
-http://xmr-node-usa-east.cakewallet.com:18081/json_rpc,4185
-http://node.supportxmr.com:18081/json_rpc,4185
-http://node.xmr.ru:18081/json_rpc,4185
-```
+
+node | fee
+---|---
+http://node.sethforprivacy.com:18089/json_rpc | 4185
+http://node2.sethforprivacy.com:18089/json_rpc | 4185
+http://selsta1.featherwallet.net:18081/json_rpc | 4185
+http://selsta2.featherwallet.net:18081/json_rpc | 4185
+http://node.monerooutreach.org:18081/json_rpc | 4185
+http://node.majesticbank.is:18089/json_rpc | 4185
+http://node.majesticbank.su:18089/json_rpc | 4185
+http://xmr-node-eu.cakewallet.com:18081/json_rpc | 4185
+http://xmr-node-usa-east.cakewallet.com:18081/json_rpc | 4185
+http://node.supportxmr.com:18081/json_rpc | 4185
+http://node.xmr.ru:18081/json_rpc | 4185
