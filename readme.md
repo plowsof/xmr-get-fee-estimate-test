@@ -1,3 +1,6 @@
+```
+get_fee_estimate
+```
 Python:
 ```
 r = requests.post('node.sethforprivacy.com:18089/json_rpc', json={"jsonrpc":"2.0","id":"0","method":"get_fee_estimate","params":{"client":""}})
