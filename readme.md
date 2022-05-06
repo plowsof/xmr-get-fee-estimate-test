@@ -1,6 +1,29 @@
 ```
 get_fee_estimate
 ```
+
+Yet to find a high fee, but found some useless nodes:    
+- [http://141.98.28.67:18089/get_info](http://141.98.28.67:18089/get_info)    
+- [http://185.157.160.119:18089/get_info](http://185.157.160.119:18089/get_info)   
+- [http://217.91.47.142:18089/get_info](http://217.91.47.142:18089/get_info)
+- [http://204.8.15.5:18089/get_info](http://204.8.15.5:18089/get_info)
+
+quick test on [FeatherWallets' clearnet list](https://github.com/feather-wallet/feather/blob/d379262a78af4f846949684e310ed5acf2354025/src/assets/nodes.json#L18) 
+
+node | fee
+---|---
+http://node.sethforprivacy.com:18089/json_rpc | 4185
+http://node2.sethforprivacy.com:18089/json_rpc | 4185
+http://selsta1.featherwallet.net:18081/json_rpc | 4185
+http://selsta2.featherwallet.net:18081/json_rpc | 4185
+http://node.monerooutreach.org:18081/json_rpc | 4185
+http://node.majesticbank.is:18089/json_rpc | 4185
+http://node.majesticbank.su:18089/json_rpc | 4185
+http://xmr-node-eu.cakewallet.com:18081/json_rpc | 4185
+http://xmr-node-usa-east.cakewallet.com:18081/json_rpc | 4185
+http://node.supportxmr.com:18081/json_rpc | 4185
+http://node.xmr.ru:18081/json_rpc | 4185
+
 Python:
 ```
 r = requests.post('node.sethforprivacy.com:18089/json_rpc', json={"jsonrpc":"2.0","id":"0","method":"get_fee_estimate","params":{"client":""}})
@@ -58,24 +81,3 @@ for x in data["white_list"]:
         pass
 ```
 
-Yet to find a high fee, but found some useless nodes:    
-- [http://141.98.28.67:18089/get_info](http://141.98.28.67:18089/get_info)    
-- [http://185.157.160.119:18089/get_info](http://185.157.160.119:18089/get_info)   
-- [http://217.91.47.142:18089/get_info](http://217.91.47.142:18089/get_info)
-- [http://204.8.15.5:18089/get_info](http://204.8.15.5:18089/get_info)
-
-quick test on [FeatherWallets' clearnet list](https://github.com/feather-wallet/feather/blob/d379262a78af4f846949684e310ed5acf2354025/src/assets/nodes.json#L18) 
-
-node | fee
----|---
-http://node.sethforprivacy.com:18089/json_rpc | 4185
-http://node2.sethforprivacy.com:18089/json_rpc | 4185
-http://selsta1.featherwallet.net:18081/json_rpc | 4185
-http://selsta2.featherwallet.net:18081/json_rpc | 4185
-http://node.monerooutreach.org:18081/json_rpc | 4185
-http://node.majesticbank.is:18089/json_rpc | 4185
-http://node.majesticbank.su:18089/json_rpc | 4185
-http://xmr-node-eu.cakewallet.com:18081/json_rpc | 4185
-http://xmr-node-usa-east.cakewallet.com:18081/json_rpc | 4185
-http://node.supportxmr.com:18081/json_rpc | 4185
-http://node.xmr.ru:18081/json_rpc | 4185
