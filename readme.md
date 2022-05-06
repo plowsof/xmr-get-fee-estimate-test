@@ -13,7 +13,7 @@ curl node.sethforprivacy.com:18089/json_rpc -d '{"jsonrpc":"2.0","id":"0","metho
 ```
 
 Output:
-```
+```json
 {'id': '0',
  'jsonrpc': '2.0',
  'result': {'credits': 0,
@@ -31,7 +31,7 @@ requests using tor [using python](https://stackoverflow.com/questions/30286293/m
 
 
 
-```
+```python
 def get_fee_curl(node):
   try:
     r = requests.post(node, json={"jsonrpc":"2.0","id":"0","method":"get_fee_estimate","params":{"client":""}}, timeout=5)
@@ -59,8 +59,8 @@ for x in data["white_list"]:
 
 Yet to find a high fee, but found some useless nodes:
 ```
-http://141.98.28.67:18089/get_info
-http://185.157.160.119:18089/get_info
-http://217.91.47.142:18089/get_info
-http://204.8.15.5:18089/get_info
+[http://141.98.28.67:18089/get_info](http://141.98.28.67:18089/get_info)
+[http://185.157.160.119:18089/get_info](http://185.157.160.119:18089/get_info)
+[http://217.91.47.142:18089/get_info](http://217.91.47.142:18089/get_info)
+[http://204.8.15.5:18089/get_info](http://204.8.15.5:18089/get_info)
 ```
