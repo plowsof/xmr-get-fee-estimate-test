@@ -24,6 +24,18 @@ http://xmr-node-usa-east.cakewallet.com:18081/json_rpc | 4185
 http://node.supportxmr.com:18081/json_rpc | 4185
 http://node.xmr.ru:18081/json_rpc | 4185
 
+tornode | fee
+---|---
+http://sfprpc5klzs5vyitq2mrooicgk2wcs5ho2nm3niqduvzn5o6ylaslaqd.onion:18089/json_rpc | 4185
+http://majesticrepik35vnngouksfl7jiwf6sj7s2doj3bvdffq27tgqoeayd.onion:18089/json_rpc | 4185
+http://mxcd4577fldb3ppzy7obmmhnu3tf57gbcbd4qhwr2kxyjj2qi3dnbfqd.onion:18081/json_rpc | 4185
+http://moneroxmrxw44lku6qniyarpwgznpcwml4drq7vb24ppatlcg4kmxpqd.onion:18089/json_rpc | 4185
+http://6dsdenp6vjkvqzy4wzsnzn6wixkdzihx3khiumyzieauxuxslmcaeiad.onion:18081/json_rpc | 4185
+http://56wl7y2ebhamkkiza4b7il4mrzwtyvpdym7bm2bkg3jrei2je646k3qd.onion:18089/json_rpc | 4185
+http://ip4zpbps7unk6xhlanqtw24f75akfbl3upeckfjqjks7ftfnk4i73oid.onion:18081/json_rpc | 4185
+http://xmrnodesarnt4w35aqmu66aart3o324yw6qbnv6pglpof6uqaydzk5id.onion:18081/json_rpc | 4185
+http://mhfsxznn5pi4xuxohj5k7unqp73sa6d44mbeewbpxnm25z3wzfogcfyd.onion:18081/json_rpc | 4185
+
 Python:
 ```
 r = requests.post('node.sethforprivacy.com:18089/json_rpc', json={"jsonrpc":"2.0","id":"0","method":"get_fee_estimate","params":{"client":""}})
