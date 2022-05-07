@@ -5,7 +5,8 @@ get_fee_estimate
 Yet to find a high* fee (using get_peer_list from my home node):
 - [http://88.84.198.8:18081/json_rpc | 5883](http://88.84.198.8:18081/get_info)
 - [http://193.29.59.76:18081/json_rpc | 2000000000](http://193.29.59.76:18081/get_info) ~ made my wallet start syncing alot of blocks?
-- [http://106.15.139.2:18081/get_info | 7174 ](http://106.15.139.2:18081/json_rpc) almost double fee?
+- [http://106.15.139.2:18081/get_info | 7174 ](http://106.15.139.2:18081/get_info) almost double fee?    
+Useless nodes:
 - [http://141.98.28.67:18089/get_info](http://141.98.28.67:18089/get_info)    
 - [http://185.157.160.119:18089/get_info](http://185.157.160.119:18089/get_info)   
 - [http://217.91.47.142:18089/get_info](http://217.91.47.142:18089/get_info)
