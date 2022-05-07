@@ -2,7 +2,7 @@
 get_fee_estimate
 ```
 
-Yet to find a high fee, but found some useless nodes:    
+Yet to find a high fee (using get_peer_list from my home node), but found some useless nodes:    
 - [http://141.98.28.67:18089/get_info](http://141.98.28.67:18089/get_info)    
 - [http://185.157.160.119:18089/get_info](http://185.157.160.119:18089/get_info)   
 - [http://217.91.47.142:18089/get_info](http://217.91.47.142:18089/get_info)
