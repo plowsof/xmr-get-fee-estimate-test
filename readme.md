@@ -8,7 +8,7 @@ Yet to find a high fee, but found some useless nodes:
 - [http://217.91.47.142:18089/get_info](http://217.91.47.142:18089/get_info)
 - [http://204.8.15.5:18089/get_info](http://204.8.15.5:18089/get_info)
 
-quick test on [FeatherWallets' clearnet list](https://github.com/feather-wallet/feather/blob/d379262a78af4f846949684e310ed5acf2354025/src/assets/nodes.json#L18) 
+### quick test on [FeatherWallets' clearnet list](https://github.com/feather-wallet/feather/blob/d379262a78af4f846949684e310ed5acf2354025/src/assets/nodes.json#L18) 
 
 node | fee
 ---|---
