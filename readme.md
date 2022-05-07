@@ -7,6 +7,7 @@ Yet to find a high fee (using get_peer_list from my home node), but found some u
 - [http://185.157.160.119:18089/get_info](http://185.157.160.119:18089/get_info)   
 - [http://217.91.47.142:18089/get_info](http://217.91.47.142:18089/get_info)
 - [http://204.8.15.5:18089/get_info](http://204.8.15.5:18089/get_info)
+- [http://xmrrpcmyrz3imrldcwiqt4vm5asq2vefgzybamxdigx37p3ctfcjnsad.onion:18089/get_info](http://xmrrpcmyrz3imrldcwiqt4vm5asq2vefgzybamxdigx37p3ctfcjnsad.onion:18089/get_info)
 
 ### quick test on [FeatherWallets' node list](https://github.com/feather-wallet/feather/blob/d379262a78af4f846949684e310ed5acf2354025/src/assets/nodes.json#L18) 
 
