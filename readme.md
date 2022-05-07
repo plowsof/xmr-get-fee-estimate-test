@@ -31,10 +31,12 @@ http://node.majesticbank.su:18089/json_rpc | 4185
 http://xmr-node-eu.cakewallet.com:18081/json_rpc | 4185
 http://xmr-node-usa-east.cakewallet.com:18081/json_rpc | 4185
 http://node.supportxmr.com:18081/json_rpc | 4185
-http://node.xmr.ru:18081/json_rpc | 4185
+http://node.xmr.ru:18081/json_rpc | 4185    
+
 testnet | fee
 --- | ---
-http://testnet.community.rino.io:28081/json_rpc | 9823
+http://testnet.community.rino.io:28081/json_rpc | 9823    
+
 stagenet | fee
 --- | ---
 http://ct36dsbe3oubpbebpxmiqz4uqk6zb6nhmkhoekileo4fts23rvuse2qd.onion:38081/json_rpc | 30439
