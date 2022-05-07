@@ -2,7 +2,7 @@
 get_fee_estimate
 ```
 
-Yet to find a high* fee (using get_peer_list from my home node):
+(using get_peer_list from my home node):
 
 These nodes are syncing but a 2000000000 is suspicious:
 - [http://88.84.198.8:18081/json_rpc | 5883](http://88.84.198.8:18081/get_info)
