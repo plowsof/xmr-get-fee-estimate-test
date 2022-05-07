@@ -40,9 +40,10 @@ feather_nodes = get_feather_nodes()
 ses = get_tor_session()
 
 pprint.pprint(feather_nodes)
-print("node | fee")
-print("---|---")
+
 for network in feather_nodes:
+  print(f"{network} | fee")
+  print(f"--- | ---")
   for node in feather_nodes[network]["tor"]:
     tor_get_fee(ses,node) 
   for node in feather_nodes[network]["clearnet"]:
