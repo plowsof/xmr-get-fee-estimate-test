@@ -1,19 +1,7 @@
 ```
 get_fee_estimate
 ```
-
-(using get_peer_list from my home node):
-
-These nodes are syncing but a 2000000000 is suspicious:
-- [http://88.84.198.8:18081/json_rpc | 5883](http://88.84.198.8:18081/get_info)
-- [http://193.29.59.76:18081/json_rpc | 2000000000](http://193.29.59.76:18081/get_info) (Now offline?)
-- [http://106.15.139.2:18081/get_info | 7174 ](http://106.15.139.2:18081/get_info)  
-Useless nodes / RPC Payments enabled:
-- [http://141.98.28.67:18089/get_info](http://141.98.28.67:18089/get_info)    
-- [http://185.157.160.119:18089/get_info](http://185.157.160.119:18089/get_info)   
-- [http://217.91.47.142:18089/get_info](http://217.91.47.142:18089/get_info)
-- [http://204.8.15.5:18089/get_info](http://204.8.15.5:18089/get_info)
-- [http://xmrrpcmyrz3imrldcwiqt4vm5asq2vefgzybamxdigx37p3ctfcjnsad.onion:18089/get_info](http://xmrrpcmyrz3imrldcwiqt4vm5asq2vefgzybamxdigx37p3ctfcjnsad.onion:18089/get_info)
+After some hours of searching, i am now unsure if the value of 'get_fee_estimate' is the method of attack, or a combination of other data.
 
 ### quick test on [FeatherWallets' node list](https://github.com/feather-wallet/feather/blob/d379262a78af4f846949684e310ed5acf2354025/src/assets/nodes.json#L18) 
 
