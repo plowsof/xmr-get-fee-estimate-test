@@ -2,6 +2,10 @@
 get_fee_estimate
 ```
 After some hours of searching, i am now unsure if the value of 'get_fee_estimate' is the method of attack, or a combination of other data.
+also this onion node is not useable, RPC pay-to-use i think:
+```
+http://xmrrpcmyrz3imrldcwiqt4vm5asq2vefgzybamxdigx37p3ctfcjnsad.onion:18089/json_rpc
+```
 
 ### quick test on [FeatherWallets' node list](https://github.com/feather-wallet/feather/blob/d379262a78af4f846949684e310ed5acf2354025/src/assets/nodes.json#L18) 
 
